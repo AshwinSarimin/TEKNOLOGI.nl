@@ -1,5 +1,5 @@
-/node_modules
-/resources
-/public
+exampleSite/resources/_gen/
+exampleSite/public/
+resources/_gen/
+public/
 .hugo_build.lock
-hugo_stats.json

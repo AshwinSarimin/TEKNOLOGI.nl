@@ -1,121 +1,30 @@
-# Hugo Theme Bootstrap Skeleton
+# Hugo HTML5 UP Arcana
 
-The starter template for [Hugo Bootstrap Theme](https://github.com/razonyang/hugo-theme-bootstrap) that install the theme as a Hugo module.
+This is a [Hugo](https://gohugo.io/) port of the
+[Arcana template](https://html5up.net/arcana) from
+[HTML5 UP](https://html5up.net/).
+Check out the [live demo](https://sec.gd/hugo/themes/arcana/).
 
-## Demo
+[![Screenshot](https://raw.githubusercontent.com/half-duplex/hugo-arcana/main/images/tn.png)](https://raw.githubusercontent.com/half-duplex/hugo-arcana/main/images/screenshot.png)
 
-| Platform | URL |
-|---|---|
-| Netlify | https://hbs-skeleton.netlify.app/ |
-| GitHub Pages | https://projects.razonyang.com/hugo-theme-bootstrap-skeleton/ |
-| Cloudflare Pages | https://hbs-skeleton.pages.dev/ |
-| Docker image | See also [Dockerfile](Dockerfile) |
+## Configuration
+See the exampleSite folder. The elements on the homepage are defined in
+`data/homepage.yml`, where you can choose which appear and configure them.
+The mostly-empty `_index.md` files are required for marking of the active menu
+item to work correctly.
 
-## Usage
+You can add your own styles in your site's `assets/sass/custom.scss`, which is
+included at the end of the theme's `main.scss`.
 
-Please make sure you have install the [build tools](https://hbs.razonyang.com/v1/en/docs/getting-started/prerequisites/#build-tools) prior to using this template.
+## Showcase
+If you use this theme, let me know, and I'll list your site here!
+- [Theme Demo Site](https://sec.gd/hugo/themes/arcana/)
+- [Odesa Regional Organization of Red Cross Society of Ukraine](https://od.redcross.org.ua/)
 
-**1. Clone this repository**
+## Contributing
+Pull requests welcome! This is my first Hugo theme, and I expect there are some
+things I've done sub-optimally.
 
-It's recommending cloning the repo by clicking the `Use this template` button, if you're hosting your code on GitHub.
-
-You can also clone it manually.
-
-```shell
-$ git clone https://github.com/razonyang/hugo-theme-bootstrap-skeleton.git blog
-$ cd blog
-$ rm -rf .git
-$ git init -b main
-```
-
-> The `rm -rf .git` is a dangerous action, please make sure that you enter the right folder.
-
-**2. Modify the `go.mod`**
-
-Replace the following line to yours, such as `module github.com/user/repo`.
-
-```text
-module github.com/razonyang/hugo-theme-bootstrap-skeleton
-```
-
-**3. Commit and push changes to your repository**
-
-```shell
-$ git add -A
-$ git commit -m 'First commit'
-$ git remote set-url origin github.com/user/repo
-$ git push origin main
-```
-
-## Go Proxy(Optional)
-
-If you're located at China mainland without VPN, the Hugo module download may fail.
-
-There are two proxies for this: [GOPROXY.CN](https://goproxy.cn) and [GOPROXY.IO](https://goproxy.io).
-
-```bash
-$ export HUGO_MODULE_PROXY=https://goproxy.cn
-```
-
-> Please note that, Hugo doesn't respect the `GOPROXY` env var, please use `HUGO_MODULE_PROXY` instead.
-
-You can also set the `module.proxy` instead of using env var.
-
-```yaml
-module:
-  proxy: https://goproxy.cn
-```
-
-## Server
-
-**1. Install dependencies**
-
-```shell
-$ npm i
-```
-
-Generally, this step only needs to be performed once for each local project.
-
-**2. Start server**
-
-```shell
-$ hugo server
-```
-
-## Upgrade theme
-
-```shell
-$ hugo mod get github.com/razonyang/hugo-theme-bootstrap@master
-$ hugo mod npm pack
-$ npm update
-$ git add go.mod go.sum package.json package-lock.json
-$ git commit -m 'Update the theme'
-```
-
-You can also replace the `master` with stable [releases](https://github.com/razonyang/hugo-theme-bootstrap/releases).
-
-## Deployment
-
-> The `baseURL` is very important, the CSS, JS and Sitemap require it to be set.
-
-**Please make sure you've change the `baseURL` on `config/_default/config.yaml` before deploying your site.**
-
-**Please also remove the `-b {url}` from the following files if you're using this template.**
-
-- `.github/workflows/gh-pages.yml`
-
-This template supports GitHub Pages, Docker image, Netlify out-of-box. See also [Deployment](https://hbs.razonyang.com/v1/en/docs/deployment/) for getting more detail.
-
-The following parameters also need to be tweaked.
-
-- Replace the `utterances.*` or `giscus.*` with your own to get notified when someone comments.
-- Modify the `repo` to your own, or delete it if it's unused.
-- `contact.endpoint`.
-
-There are some hooks under the `layouts/partials/hooks` folder for showing how to use them, please feel free to delete them.
-
-## Documentations
-
-- [English](https://hbs.razonyang.com/v1/en/)
-- [简体中文](https://hbs.razonyang.com/v1/zh-hans/)
-- [繁體中文](https://hbs.razonyang.com/v1/zh-hant/)
+## Thanks
+I borrowed a good amount of structure and useful bits from
+[hugo-html5up-alpha](https://github.com/dewittn/hugo-html5up-alpha)
