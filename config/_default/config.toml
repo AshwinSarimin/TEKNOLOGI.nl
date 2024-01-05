@@ -1,7 +1,7 @@
-baseURL = "https://example.org/"
+baseURL = "https://teknologi.nl"
 languageCode = "en-us"
-title = "Arcana for Hugo"
-copyright = "© Untitled. All rights reserved"
+title = "Teknologi"
+copyright = "© 2024, Ashwin Sarimin. All rights reserved"
 
 [taxonomies]
     tag = "tags"
@@ -11,21 +11,17 @@ copyright = "© Untitled. All rights reserved"
     show_post_dates = false
 
     [[params.social]]
-        title = "Twitter"
-        icon = "fa-twitter"
-        url = "#"
-    [[params.social]]
-        title = "Facebook"
-        icon = "fa-facebook-f"
-        url = "#"
-    [[params.social]]
         title = "GitHub"
         icon = "fa-github"
-        url = "#"
+        url = "https://github.com/AshwinSarimin"
     [[params.social]]
         title = "LinkedIn"
         icon = "fa-linkedin-in"
-        url = "#"
+        url = "https://www.linkedin.com/in/ashwin-sarimin/"
+    [[params.social]]
+        title = "Twitter"
+        icon = "fa-twitter"
+        url = "https://twitter.com/AshwinSarimin"
     [[params.social]]
         title = "Creative Commons"
         icon = "fa-creative-commons"

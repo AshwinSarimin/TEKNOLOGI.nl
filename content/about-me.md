@@ -1,12 +1,12 @@
 ---
-title: "Left Sidebar"
-description: "Sidebar on the left, content on the right."
+title: "About Me"
+description: "Sidebar on the right, content on the left."
 menu: main
-weight: 50
+weight: 60
 image: images/banner.jpg
 image_alt: "Hello!"
 tags: ["examples", "content", "sidebar"]
-sidebar_left: sidebar1
+sidebar_right: sidebar1
 ---
 Phasellus quam turpis, feugiat sit amet ornare in, hendrerit in lectus.
 Praesent semper mod quis eget mi. Etiam eu ante risus. Aliquam erat volutpat.
