@@ -1,26 +1,26 @@
 banner:
   enable: true
   image: "images/banner.jpg"
-  contents: "Innovate, growth and technology"
+  contents: "The future belongs to those who learn more skills and combine them in innovative ways"
 items:
   - type: highlights
     items_per_row: 3
     items:
-    - title: Cloud
+    - title: Cloud Architect
       icon: fa-cloud-sun
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-    - title: DevOps
+        As an experienced professional specializing in Cloud Engineering & Cloud Architecture, my primary focus revolves around Microsoft Azure & Kubernetes. 
+        I offer a diverse set of skills capable of tackling complex challenges and creating innovative cloud solutions.
+    - title: DevOps Enthusiast
       icon: fa-people-carry
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
-    - title: Security
+        I have a strong passion for DevOps, where I help organizations and teams enhance their collaborative efforts and streamline processes. 
+        Specializing in orchestrating efficient development practices with a focus on tools like CI/CD and GitOps, I bring a dedication to excellence, innovation, and continuous improvement.
+    - title: Security Advocate
       icon: fa-user-shield
       content: >
-        Duis neque nisi, dapibus sed mattis et quis, nibh. Sed et dapibus nisl
-        amet mattis, sed a rutrum accumsan sed. Suspendisse eu.
+        As a true believer in shift left and zero trust, security should be integral part of any organizational structure. 
+        I am dedicated to fostering seamless integration of privacy and security by design, consistently adopting proactive measures to strengthen effective risk management.
   - type: posts
     #heading: Recent Posts
     content_type: posts
